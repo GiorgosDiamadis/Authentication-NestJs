@@ -1,0 +1,198 @@
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231",
+  "title": "asd"
+}
+
+<> 2022-04-06T133337.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231",
+  "title": "asdasdasdasdasd"
+}
+
+<> 2022-04-06T133313.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231",
+  "title": "asdasdasdasdasd"
+}
+
+<> 2022-04-06T133307.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T133248.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T133237.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T133149.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T133132.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T133121.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T132831.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T132800.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231"
+}
+
+<> 2022-04-06T131812.200.json
+
+###
+
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
+Accept: application/json
+
+<> 2022-04-06T130252.404.json
+
+###
+
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
+Accept: application/json
+
+<> 2022-04-06T130232.302.json
+
+###
+
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
+Accept: application/json
+
+<> 2022-04-06T130119.500.json
+
+###
+
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
+Accept: application/json
+
+<> 2022-04-06T130051.500.json
+
+###
+
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
+Accept: application/json
+
+<> 2022-04-06T125718.302.json
+
+###
+
+POST http://localhost:8080/books/create
+Content-Type: application/json
+
+{
+  "title": "Book3",
+  "author": "Author3",
+  "ISBN": "ISBN",
+  "price": "1231"
+}
+
+<> 2022-04-06T125229.201.json
+
+###
+
+POST http://localhost:8080/books/create
+Content-Type: application/json
+
+{
+  "title": "Book3",
+  "author": "Author3",
+  "ISBN": "ISBN",
+  "price": "1231"
+}
+
+<> 2022-04-06T125122.201.json
+
+###
+

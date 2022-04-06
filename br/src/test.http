@@ -1,17 +1,22 @@
-DELETE http://localhost:8080/books/4ansef7nceibot7
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+###
+DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
 Accept: application/json
 
 ###
-POST http://localhost:8080/books/create
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
 Content-Type: application/json
 
 {
-  "title": "Book3",
-  "author": "Author3",
-  "ISBN": "ISBN",
-  "price": "1231"
+  "ISBN": "o6ozgjjnxcr3xxp",
+  "price": "1231",
+  "title": "asd"
 }
 
 ###
+
+
 
 

@@ -1,5 +1,3 @@
-import {CreateBookDto} from "../dto/create-book.dto";
-import {randomUUID} from "crypto";
 import {Prop, Schema, SchemaFactory} from "@nestjs/mongoose";
 import {Document} from 'mongoose';
 
