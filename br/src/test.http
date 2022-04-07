@@ -1,3 +1,35 @@
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+###
+GET http://localhost:8080/
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjRmNTFhYjcxZjJlNjBjMDZmMTQ1NTEiLCJpYXQiOjE2NDkzNjU0MTksImV4cCI6MTY0OTM2OTAxOX0.xYqT4YxBSKwW0eWvXIzynvB2weXptg3J5UElfG8x1Pc
+
+###
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+###
+GET http://localhost:8080/books
+Accept: application/json
+
+###
 POST http://localhost:80/api/item
 Content-Type: application/x-www-form-urlencoded
 
@@ -10,7 +42,7 @@ POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
+  "ISBN": "o6ozgjjnxssssssssscr3xxp",
   "price": "1231",
   "title": "asd"
 }

@@ -1,3 +1,437 @@
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+<> 2022-04-08T011443.401.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+<> 2022-04-08T011137.401.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+<> 2022-04-08T005719.201.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T005559.400.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorsssgos",
+  "password": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "password": "password"
+}
+
+<> 2022-04-08T005528.201.json
+
+###
+
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "password": "password"
+}
+
+<> 2022-04-08T005109.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004720.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004612.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004536.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004441.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "emailasfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004350.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004238.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T004213.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003950.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003857.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003750.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003707.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003641.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T003631.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+
+GET http://localhost:8080
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjRmNTFhYjcxZjJlNjBjMDZmMTQ1NTEiLCJpYXQiOjE2NDkzNjU0MTksImV4cCI6MTY0OTM2OTAxOX0.xYqT4YxBSKwW0eWvXIzynvB2weXptg3J5UElfG8x1Pc
+
+<> 2022-04-08T001509.200.html
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgo5",
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-08T000339.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-07T235953.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+###
+
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+<> 2022-04-07T234655.401.json
+
+###
+
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+<> 2022-04-07T234533.404.json
+
+###
+
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+<> 2022-04-07T234502.404.json
+
+###
+
+POST http://localhost:8080/auth/login
+Accept: application/json
+
+<> 2022-04-07T233958.404.json
+
+###
+
+GET http://localhost:8080/auth/login
+Accept: application/json
+
+<> 2022-04-07T233940.404.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T233530.401.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T233528.401.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T233519.401.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T233435.401.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T232855.500.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T205841.500.json
+
+###
+
+GET http://localhost:8080/myBooks
+Accept: application/json
+
+<> 2022-04-07T205121.500.json
+
+###
+
+GET http://localhost:8080/books
+Accept: application/json
+
+<> 2022-04-07T193052.200.json
+
+###
+
+POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+Content-Type: application/json
+
+{
+  "ISBN": "o6ozgjjnxssssssssscr3xxp",
+  "price": "1231",
+  "title": "asd"
+}
+
+<> 2022-04-06T133451.200.json
+
+###
+
 POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
 Content-Type: application/json
 
@@ -106,93 +540,6 @@ Content-Type: application/json
 }
 
 <> 2022-04-06T132831.200.json
-
-###
-
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
-Content-Type: application/json
-
-{
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
-}
-
-<> 2022-04-06T132800.200.json
-
-###
-
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
-Content-Type: application/json
-
-{
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
-}
-
-<> 2022-04-06T131812.200.json
-
-###
-
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-<> 2022-04-06T130252.404.json
-
-###
-
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-<> 2022-04-06T130232.302.json
-
-###
-
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-<> 2022-04-06T130119.500.json
-
-###
-
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-<> 2022-04-06T130051.500.json
-
-###
-
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-<> 2022-04-06T125718.302.json
-
-###
-
-POST http://localhost:8080/books/create
-Content-Type: application/json
-
-{
-  "title": "Book3",
-  "author": "Author3",
-  "ISBN": "ISBN",
-  "price": "1231"
-}
-
-<> 2022-04-06T125229.201.json
-
-###
-
-POST http://localhost:8080/books/create
-Content-Type: application/json
-
-{
-  "title": "Book3",
-  "author": "Author3",
-  "ISBN": "ISBN",
-  "price": "1231"
-}
-
-<> 2022-04-06T125122.201.json
 
 ###
 

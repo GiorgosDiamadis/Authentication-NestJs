@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11a423e-7f47-4fff-b756-9e357de69e4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/br/src/books/dto/edit-book.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/guards/jwt-auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/guards/local-auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/service/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/strategy/jwt.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/auth/strategy/local.strategy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/books/books.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/exceptions/http-exception.filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/pipes/joi.validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/class/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/dto/login-dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/dto/login-schema.validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/dto/register-dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/dto/register-schema.validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/service/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/users.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/br/src/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T125122.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T125229.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T125718.302.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T130051.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T130119.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T130232.302.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T130252.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T131812.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T132800.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/br/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/br/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/books/books.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/books/books.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/books/class/Book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/books/class/Book.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/books/dto/create-book.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/books/dto/create-book.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/books/class/Book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/books/class/book.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/books/service/books.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/books/service/books.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +57,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,17 +89,35 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="docker-compose://[/home/giorgos/Desktop/Projects/BookBuy/docker-compose.yml]:app/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.import.notification.dismissed" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/br/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/br/src/pipes" />
+      <recent name="$PROJECT_DIR$/br/src" />
+      <recent name="$PROJECT_DIR$/br/src/auth/guards" />
+      <recent name="$PROJECT_DIR$/br/src/auth/strategy" />
+      <recent name="$PROJECT_DIR$/br/src/auth/service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="HTTP Request.test | #1">
+    <configuration name="test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/br/src/test.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/br/src/test.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/br/src/test.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.test | #1" />
         <item itemvalue="HTTP Request.test | #3" />
+        <item itemvalue="HTTP Request.test | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -70,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649149137211</updated>
       <workItem from="1649149138313" duration="1448000" />
-      <workItem from="1649238062202" duration="3154000" />
+      <workItem from="1649238062202" duration="6114000" />
+      <workItem from="1649348860169" duration="14042000" />
     </task>
     <servers />
   </component>

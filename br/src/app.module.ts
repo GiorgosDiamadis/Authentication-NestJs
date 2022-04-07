@@ -1,16 +1,17 @@
 import {Module} from '@nestjs/common';
+import {BooksModule} from "./books/books.module";
 import {AppController} from './app.controller';
 import {AppService} from './app.service';
-import {BooksController} from './books/books.controller';
-import {BooksService} from './books/service/books.service';
 import {MongooseModule} from "@nestjs/mongoose";
-import {Book, BookSchema} from "./books/class/Book";
+import {UsersModule} from "./users/users.module";
+import {AuthService} from "./auth/service/auth.service";
+import {AuthModule} from "./auth/auth.module";
 
 @Module({
-    imports: [MongooseModule.forRoot("mongodb://root:root@db:27017/book-rental?authSource=admin"),
-        MongooseModule.forFeature([{name: Book.name, schema: BookSchema}])],
-    controllers: [AppController, BooksController],
-    providers: [AppService, BooksService],
+    imports: [BooksModule, AuthModule, UsersModule, MongooseModule.forRoot("mongodb://root:root@database:27017/book-rental?authSource=admin")],
+    controllers: [AppController],
+    providers: [AppService],
+
 })
 export class AppModule {
 }

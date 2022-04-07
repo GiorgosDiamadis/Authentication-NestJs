@@ -1,7 +1,7 @@
 import {Body, Controller, Delete, Get, HttpStatus, Param, Post, Req, Res} from '@nestjs/common';
 import {CreateBookDto} from "./dto/create-book.dto";
 import {BooksService} from "./service/books.service";
-import {Book} from "./class/Book";
+import {Book} from "./class/book";
 import {EditBookDto} from "./dto/edit-book.dto";
 
 @Controller('books')
@@ -23,7 +23,7 @@ export class BooksController {
         const book = await this.bookService.findOne(isbn);
         var status;
         if (book === null)
-            status = HttpStatus.NOT_FOUND;
+            status = HttpStatus.BAD_REQUEST;
         else
             status = HttpStatus.FOUND;
         return response.status(status).json(book);
@@ -36,7 +36,7 @@ export class BooksController {
         if (res) {
             return response.status(HttpStatus.FOUND).json(isbn);
         } else {
-            return response.status(HttpStatus.NOT_FOUND).json(isbn);
+            return response.status(HttpStatus.BAD_REQUEST).json(isbn);
         }
     }
 
@@ -53,7 +53,10 @@ export class BooksController {
     @Post("edit/:isbn")
     async editBook(@Body() editBookDto: EditBookDto, @Res() response,@Req() req) {
         const res = await this.bookService.update(editBookDto);
-        return response.status(200).json(res);
+        if (res)
+            return response.status(HttpStatus.OK).json(res);
+        return response.status(HttpStatus.BAD_REQUEST).json(res);
+
     }
 
 }
