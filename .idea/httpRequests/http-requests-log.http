@@ -1,46 +1,10 @@
-POST http://localhost:8080/auth/login
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "username": "giorsssgos",
-  "password": "password"
 }
 
-<> 2022-04-08T011443.401.json
-
-###
-
-POST http://localhost:8080/auth/login
-Content-Type: application/json
-
-{
-  "username": "giorsssgos",
-  "password": "password"
-}
-
-<> 2022-04-08T011137.401.json
-
-###
-
-POST http://localhost:8080/auth/login
-Content-Type: application/json
-
-{
-  "username": "giorsssgos",
-  "password": "password"
-}
-
-<> 2022-04-08T005719.201.json
-
-###
-
-POST http://localhost:8080/auth/login
-Content-Type: application/json
-
-{
-  "username": "giorsssgos",
-  "password": "password"
-}
+<> 2022-04-09T120242.400.json
 
 ###
 
@@ -48,45 +12,32 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
+  "username": "giorgos"
 }
 
-<> 2022-04-08T005559.400.json
+<> 2022-04-09T120225.400.json
 
 ###
 
-POST http://localhost:8080/auth/login
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "username": "giorsssgos",
-  "password": "password"
+  "username": "giorgos"
 }
+
+<> 2022-04-09T120153.400.json
 
 ###
 
-POST http://localhost:8080/auth/login
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
   "username": "giorgos",
-  "password": "password"
 }
 
-<> 2022-04-08T005528.201.json
-
-###
-
-POST http://localhost:8080/auth/login
-Content-Type: application/json
-
-{
-  "password": "password"
-}
-
-<> 2022-04-08T005109.400.json
+<> 2022-04-09T120146.400.json
 
 ###
 
@@ -94,206 +45,13 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004720.400.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004612.400.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004536.400.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004441.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004350.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
+  "username": "giorgos",
   "email": "email@asfds.com",
   "password": "password",
   "confirmPassword": "password"
 }
 
-<> 2022-04-08T004238.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T004213.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003950.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003857.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003750.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003707.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003641.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T003631.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-###
-
-GET http://localhost:8080
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjRmNTFhYjcxZjJlNjBjMDZmMTQ1NTEiLCJpYXQiOjE2NDkzNjU0MTksImV4cCI6MTY0OTM2OTAxOX0.xYqT4YxBSKwW0eWvXIzynvB2weXptg3J5UElfG8x1Pc
-
-<> 2022-04-08T001509.200.html
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgo5",
-  "email": "email",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-08T000339.201.json
+<> 2022-04-09T120138.401.json
 
 ###
 
@@ -302,12 +60,12 @@ Content-Type: application/json
 
 {
   "username": "giorgos",
-  "email": "email",
+  "email": "email@asfds.com",
   "password": "password",
   "confirmPassword": "password"
 }
 
-<> 2022-04-07T235953.201.json
+<> 2022-04-09T120110.500.json
 
 ###
 
@@ -316,230 +74,557 @@ Content-Type: application/json
 
 {
   "username": "giorgos",
-  "email": "email",
+  "email": "email@asfds.com",
   "password": "password",
   "confirmPassword": "password"
 }
 
 ###
 
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-###
-
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-<> 2022-04-07T234655.401.json
-
-###
-
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-<> 2022-04-07T234533.404.json
-
-###
-
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-<> 2022-04-07T234502.404.json
-
-###
-
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-<> 2022-04-07T233958.404.json
-
-###
-
-GET http://localhost:8080/auth/login
-Accept: application/json
-
-<> 2022-04-07T233940.404.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T233530.401.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T233528.401.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T233519.401.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T233435.401.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T232855.500.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T205841.500.json
-
-###
-
-GET http://localhost:8080/myBooks
-Accept: application/json
-
-<> 2022-04-07T205121.500.json
-
-###
-
-GET http://localhost:8080/books
-Accept: application/json
-
-<> 2022-04-07T193052.200.json
-
-###
-
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxssssssssscr3xxp",
-  "price": "1231",
-  "title": "asd"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
 }
-
-<> 2022-04-06T133451.200.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231",
-  "title": "asd"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
 }
-
-<> 2022-04-06T133337.200.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231",
-  "title": "asdasdasdasdasd"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
 }
 
-<> 2022-04-06T133313.200.json
+<> 2022-04-09T115826.500.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231",
-  "title": "asdasdasdasdasd"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
 }
 
-<> 2022-04-06T133307.200.json
+<> 2022-04-09T115809.500.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
 }
 
-<> 2022-04-06T133248.200.json
+<> 2022-04-09T115643.500.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos"
 }
 
-<> 2022-04-06T133237.200.json
+<> 2022-04-09T115620.400.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos"
 }
 
-<> 2022-04-06T133149.200.json
+<> 2022-04-09T115155.400.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos",
 }
 
-<> 2022-04-06T133132.200.json
+<> 2022-04-09T115147.400.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "passworsd",
+  "confirmPassword": "password"
 }
 
-<> 2022-04-06T133121.200.json
+<> 2022-04-09T115133.400.json
 
 ###
 
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
+POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "ISBN": "o6ozgjjnxcr3xxp",
-  "price": "1231"
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "passworsd",
+  "confirmPassword": "password"
 }
 
-<> 2022-04-06T132831.200.json
+<> 2022-04-09T115102.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T115032.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114858.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114828.500.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114530.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114509.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114417.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114210.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+}
+
+<> 2022-04-09T114145.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114133.400.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114129.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114123.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114114.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114100.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T114056.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T113654.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T112644.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T111423.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T111335.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T111155.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T111131.500.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T111109.500.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T110300.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T105126.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T105105.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104805.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104741.401.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104733.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104653.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104631.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "username": "giorgos",
+  "email": "email@asfds.com",
+  "password": "password",
+  "confirmPassword": "password"
+}
+
+<> 2022-04-09T104609.201.json
 
 ###
 

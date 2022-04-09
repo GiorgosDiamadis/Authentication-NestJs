@@ -1,0 +1,6 @@
+{
+  "statusCode": 401,
+  "timestamp": "2022-04-09T08:14:23.008Z",
+  "path": "/auth/register",
+  "reason": "Http Exception"
+}

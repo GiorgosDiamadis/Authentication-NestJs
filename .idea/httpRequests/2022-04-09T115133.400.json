@@ -1,0 +1,6 @@
+{
+  "statusCode": 400,
+  "timestamp": "2022-04-09T08:51:33.591Z",
+  "path": "/auth/register",
+  "reason": "\"confirmPassword\" must be [ref:password]"
+}

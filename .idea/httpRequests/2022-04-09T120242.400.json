@@ -1,0 +1,10 @@
+{
+  "statusCode": 400,
+  "timestamp": "2022-04-09T09:02:42.084Z",
+  "path": "/auth/register",
+  "reason": [
+    "\"username\" is required",
+    " \"email\" is required",
+    " \"password\" is required"
+  ]
+}

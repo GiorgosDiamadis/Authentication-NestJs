@@ -1,0 +1,6 @@
+{
+  "statusCode": 401,
+  "timestamp": "2022-04-09T08:41:23.710Z",
+  "path": "/auth/register",
+  "reason": "Username already exists!"
+}

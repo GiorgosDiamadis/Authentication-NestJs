@@ -1,0 +1,6 @@
+{
+  "statusCode": 400,
+  "timestamp": "2022-04-09T08:48:58.404Z",
+  "path": "/auth/register",
+  "reason": "required"
+}

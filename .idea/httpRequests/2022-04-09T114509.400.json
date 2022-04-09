@@ -1,0 +1,16 @@
+{
+  "_original": {},
+  "details": [
+    {
+      "message": "\"username\" is required",
+      "path": [
+        "username"
+      ],
+      "type": "any.required",
+      "context": {
+        "label": "username",
+        "key": "username"
+      }
+    }
+  ]
+}

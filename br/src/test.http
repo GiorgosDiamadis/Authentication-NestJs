@@ -16,9 +16,6 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "email": "emailasfds.com",
-  "password": "password",
-  "confirmPassword": "password"
 }
 
 ###

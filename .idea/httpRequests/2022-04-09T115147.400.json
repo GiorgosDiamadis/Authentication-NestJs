@@ -1,0 +1,6 @@
+{
+  "statusCode": 400,
+  "timestamp": "2022-04-09T08:51:46.996Z",
+  "path": "/auth/register",
+  "reason": "Unexpected token } in JSON at position 27"
+}

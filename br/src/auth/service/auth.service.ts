@@ -1,9 +1,7 @@
 import {Injectable} from "@nestjs/common";
 import {UsersService} from "../../users/service/users.service";
 import {JwtService} from "@nestjs/jwt";
-import {User, UserDocument} from "../../users/class/user";
 import {LoginDto} from "../../users/dto/login-dto";
-import {log} from "util";
 import {RegisterDto} from "../../users/dto/register-dto";
 
 @Injectable()
@@ -35,6 +33,8 @@ export class AuthService {
 
     async register(data: RegisterDto): Promise<any> {
         const user = await this.userService.create(data);
+        if (user === null)
+            return null;
         return this.login(user);
     }
 }

@@ -15,6 +15,10 @@ export class UsersService {
     }
 
     async create(data: RegisterDto): Promise<any> {
+        const user = await this.userModel.findOne({username: data.username});
+        if (user !== null) {
+            return null;
+        }
         const newUser = new this.userModel({username: data.username, password: data.password, email: data.email})
         await newUser.save();
         return {...newUser, _id: newUser._id};
