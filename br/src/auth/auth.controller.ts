@@ -17,9 +17,9 @@ export class AuthController {
     async login(@Body() loginDto: LoginDto) {
         const user = await this.authService.validateUser(loginDto);
         if (user !== null)
-            return this.authService.validateUser(loginDto);
+            return user;
 
-        throw new HttpException({status: HttpStatus.UNAUTHORIZED, error: "Username or password is incorrect!"}, 401)
+        throw new HttpException({status: HttpStatus.UNAUTHORIZED, message: "Username or password is incorrect!"}, 401)
     }
 
     @Post("register")

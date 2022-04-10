@@ -1,5 +1,3 @@
-import {required} from "joi";
-
 const Joi = require('joi')
 
 export const registerSchemaValidator = Joi.object(
