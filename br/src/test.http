@@ -23,33 +23,3 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:8080/auth/login
-Accept: application/json
-
-###
-GET http://localhost:8080/books
-Accept: application/json
-
-###
-POST http://localhost:80/api/item
-Content-Type: application/x-www-form-urlencoded
-
-###
-DELETE http://localhost:8080/books/sx94wmgbvcd9n2u
-Accept: application/json
-
-###
-POST http://localhost:8080/books/edit/o6ozgjjnxcr3xxp
-Content-Type: application/json
-
-{
-  "ISBN": "o6ozgjjnxssssssssscr3xxp",
-  "price": "1231",
-  "title": "asd"
-}
-
-###
-
-
-
-
