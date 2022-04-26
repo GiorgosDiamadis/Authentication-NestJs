@@ -17,9 +17,7 @@ import * as bcrypt from "bcrypt";
                 user.salt = salt;
                 next();
             })
-
             return schema;
-
         }
     }])],
     controllers: [UsersController],

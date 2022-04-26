@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 WORKDIR /usr/app
 RUN chmod -R 777 /usr/app
 COPY . .

@@ -2,62 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11a423e-7f47-4fff-b756-9e357de69e4b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T132831.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133121.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133132.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133149.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133237.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133248.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133307.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133313.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133337.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-06T133451.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T193052.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T205121.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T205841.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T232855.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233435.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233519.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233528.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233530.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233940.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T233958.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T234502.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T234533.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T234655.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-07T235953.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T000339.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T001509.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003631.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003641.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003707.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003750.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003857.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T003950.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004213.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004238.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004350.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004441.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004536.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004612.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T004720.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T005109.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T005528.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T005559.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T005719.201.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T011137.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-08T011443.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2022-04-09T104609.201.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/auth/auth.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/auth/service/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/auth/service/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/exceptions/http-exception.filter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/exceptions/http-exception.filter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/auth/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/auth/auth.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/users/class/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/users/class/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/users/dto/login-schema.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/users/dto/login-schema.validator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/br/src/users/dto/register-schema.validator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/users/dto/register-schema.validator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/br/src/users/service/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/users/service/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br/src/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/br/src/users/users.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +102,7 @@
       <workItem from="1649238062202" duration="6114000" />
       <workItem from="1649348860169" duration="14173000" />
       <workItem from="1649486996318" duration="7964000" />
+      <workItem from="1650967962789" duration="2368000" />
     </task>
     <servers />
   </component>

@@ -2,6 +2,20 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
+  "username": "george",
+  "email": "diamantisgiorgos2@gmail.com",
+  "password": "pass",
+  "confirmPassword": "pass"
+}
+
+<> 2022-04-26T184537.201.json
+
+###
+
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
 }
 
 <> 2022-04-09T120242.400.json
@@ -611,20 +625,6 @@ Content-Type: application/json
 }
 
 <> 2022-04-09T104631.201.json
-
-###
-
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-
-{
-  "username": "giorgos",
-  "email": "email@asfds.com",
-  "password": "password",
-  "confirmPassword": "password"
-}
-
-<> 2022-04-09T104609.201.json
 
 ###
 

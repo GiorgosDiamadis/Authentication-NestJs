@@ -16,10 +16,10 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-  "username": "giorgos245y",
-  "email": "email@sasfd4y5s.com",
-  "password": "password",
-  "confirmPassword": "password"
+  "username": "george",
+  "email": "diamantisgiorgos2@gmail.com",
+  "password": "pass",
+  "confirmPassword": "pass"
 }
 
 ###

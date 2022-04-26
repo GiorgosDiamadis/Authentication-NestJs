@@ -1,6 +1,5 @@
-import {HttpAdapterHost, NestFactory} from '@nestjs/core';
-import { AppModule } from './app.module';
-import {Model} from "mongoose"
+import {NestFactory} from '@nestjs/core';
+import {AppModule} from './app.module';
 import {HttpExceptionFilter} from "./exceptions/http-exception.filter";
 
 async function bootstrap() {
